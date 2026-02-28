@@ -1,0 +1,163 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #0FAD8D;
+
+    width: 688px;
+    height: 888px;
+
+    border-radius: 25px;
+
+    border: 10px solid black;
+}
+
+#clear-btn {
+    align-self: flex-end;
+
+    margin-right: 100px;
+    border: 5px solid black;
+
+    font-size: xx-small;
+    font-weight: 900;
+    text-align: center;
+
+    width: 100px;
+
+    background-color: #F94522;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-header-box {
+    display: flex;
+    flex-direction: row;
+    width: 658px;
+    justify-content: flex-end;
+    
+    padding: 15px;
+    padding-right: 60px;
+
+
+
+    
+}
+
+#calc-header-box .box {
+    background-color: #FEFEFE;
+
+    width: 25px;
+    height: 25px;
+
+    border: 5px solid black;
+}
+
+#text-content-wrapper {
+    border: solid 5px black;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 80%;
+    height: 120px;
+
+    padding-right: 30px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+
+    background-color: #000101;
+    color: #FEFEFE;
+
+    font-size: xxx-large;
+
+}
+
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#grp-row {
+    display: flex;
+
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 120px;
+    width: 120px;
+
+    border: 5px solid black;
+    border-radius: 15px;
+
+    margin: 6px;
+
+    font-size: xx-large;
+    font-weight: 900;
+
+    
+}
+
+.eq-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    height: 260px;
+    width: 120px;
+
+    border: 5px solid black;
+    border-radius: 15px;
+
+    margin: 6px;
+
+    font-size: xx-large;
+    font-weight: 900;
+
+    background-color: #F94522;
+
+}
+
+.btn.num-btn {
+    background-color: #FAC33E;
+}
+
+.btn.op-btn {
+    background-color: #ABF1DE;
+}
