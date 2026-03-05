@@ -130,6 +130,11 @@ eqButton.addEventListener("click", (e) => {
     secondVar = "";
 
     calcTextContent.textContent = firstVar;
+
+    if(calcTextContent.textContent == 'NaN') {
+        firstVar = 0;
+        calcTextContent.textContent = 0;
+    }
     
 
 })
